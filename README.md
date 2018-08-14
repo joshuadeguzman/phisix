@@ -1,12 +1,10 @@
 phisix
 ======
 [![Build Status](https://travis-ci.org/edgedalmacio/phisix.svg?branch=master)](https://travis-ci.org/edgedalmacio/phisix)
-[![Quality Gate](https://sonarqube.com/api/badges/gate?key=com.googlecode.phisix:phisix)](https://sonarqube.com/dashboard/index/com.googlecode.phisix:phisix)
-[![Coverage](https://sonarqube.com/api/badges/measure?key=com.googlecode.phisix:phisix&metric=coverage)](https://sonarqube.com/dashboard/index/com.googlecode.phisix:phisix)
 
 Simple PSEi (formerly known as PHISIX) RESTful API hosted on Google AppEngine
 
-###Resources Summary###
+### Resources Summary
 
 **Stocks**: look up stocks
 
@@ -14,7 +12,7 @@ Simple PSEi (formerly known as PHISIX) RESTful API hosted on Google AppEngine
     GET http://phisix-api.appspot.com/stocks/{symbol}.{json|xml}
     GET http://phisix-api.appspot.com/stocks/{symbol}.{yyyy-MM-dd}.{json|xml}
 
-###JSON feeds###
+### JSON feeds
 
 <table>
 	<tr>
@@ -54,7 +52,7 @@ Simple PSEi (formerly known as PHISIX) RESTful API hosted on Google AppEngine
 	</tr>
 </table>
 
-###XML feeds###
+### XML feeds
 
 <table>
 	<tr>
@@ -94,6 +92,6 @@ Simple PSEi (formerly known as PHISIX) RESTful API hosted on Google AppEngine
 	</tr>
 </table>
 
-###XSD###
+### XSD
 
 [http://phisix-api.appspot.com/schema/stocks/phisix-stocks.xsd](http://phisix-api.appspot.com/schema/stocks/phisix-stocks.xsd)
